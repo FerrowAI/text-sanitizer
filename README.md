@@ -43,4 +43,4 @@ console.log(stats); // { controlChars: 1, zeroWidthChars: 2, ... }
 - NOT a security boundary; do not use as only defense against prompt injection or malicious input.
 
 ---
-Part of the [ferrow-toolkit](https://github.com/Ruzylo-cloud/ferrow-toolkit) collection · Sponsored by [Ferrow](https://ferrow.ai)
+Part of the [ferrow-toolkit](https://github.com/FerrowAI/ferrow-toolkit) collection · Sponsored by [Ferrow](https://ferrow.ai)
