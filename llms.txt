@@ -1,0 +1,19 @@
+# text-sanitizer
+
+> Text hygiene for logs and LLM inputs: control chars, Unicode normalization, zero-width removal, homoglyph detection.
+
+Clean user text before logging/LLM: removes control chars, normalizes Unicode, strips zero-width, detects homoglyphs. NOT a security boundary.
+
+## API
+
+- `sanitize(text, config?)` → string
+- `detectHomoglyphs(text)` → HomoglyphFinding[]
+- `report(text)` → Record<string, number>
+
+## Install
+
+```bash
+npm install text-sanitizer
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

@@ -1,0 +1,20 @@
+{
+  "name": "text-sanitizer",
+  "version": "1.0.0",
+  "description": "Text hygiene for logs and LLM inputs: control chars, Unicode normalization, zero-width removal, homoglyph detection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["typescript", "zero-dependencies", "sanitize", "text", "unicode", "hygiene"],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
