@@ -1,4 +1,5 @@
 # text-sanitizer
+![CI](https://github.com/FerrowAI/text-sanitizer/actions/workflows/ci.yml/badge.svg)
 
 Text hygiene for logs and LLM inputs: control chars, Unicode normalization, zero-width removal, homoglyph detection.
 
