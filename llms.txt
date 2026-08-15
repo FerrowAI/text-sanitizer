@@ -13,7 +13,7 @@ Clean user text before logging/LLM: removes control chars, normalizes Unicode, s
 ## Install
 
 ```bash
-npm install text-sanitizer
+npm install @ferrow/text-sanitizer
 ```
 
 Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai

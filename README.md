@@ -18,7 +18,7 @@ export function report(text: string): Record<string, number>
 ## Install
 
 ```bash
-npm install text-sanitizer
+npm install @ferrow/text-sanitizer
 ```
 
 ## Quick Start
